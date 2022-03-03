@@ -34,7 +34,10 @@ int main()
       cout << s << endl;
       }
    cout << s;
+   return 0;
+   
 }
+
 
 
 
