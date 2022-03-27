@@ -1,11 +1,11 @@
-#include<iostream>
-#include <time.h>
+#include<bits/stdc++.h>
+
 using namespace std;
 int main(){
   clock_t start, end;
   start = clock();
   int x, a, b, d, w, x0;
-  for (x0=1; x0<100000000; x0++){
+  for (x0=1; x0<1000000000; x0++){
     x=x0;
     a = 5;
     b = 13;
