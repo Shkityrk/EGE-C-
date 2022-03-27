@@ -1,12 +1,14 @@
-#include <iostream>
-#include <string>
+#include<bits/stdc++.h>
 using namespace std;
+
 int main()
 {
-    string A = "jqmspo";
-    for (int i = 0; i < A.size(); ++i) {
-        A[i] = (A[i] - i) ^ 25;
-    }
-    cout << A << endl;
-    return 0;
+    int a, r, add;
+    cin >> a ;
+    r= a%2;
+    add = 2-r;
+    cout << a+ add; 
+    
+
+    
 }
