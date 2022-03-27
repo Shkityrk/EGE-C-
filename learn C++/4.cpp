@@ -9,6 +9,4 @@ int main()
     add = 2-r;
     cout << a+ add; 
     
-
-    
 }
