@@ -1,3 +1,0 @@
-D:/EGE of numbers(C++)/build/CMakeFiles/1.dir
-D:/EGE of numbers(C++)/build/CMakeFiles/ALL_BUILD.dir
-D:/EGE of numbers(C++)/build/CMakeFiles/ZERO_CHECK.dir
