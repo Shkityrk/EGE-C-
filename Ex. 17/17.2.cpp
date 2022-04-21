@@ -1,4 +1,5 @@
 #include <iostream>
+#include <conio.h>
 
 using namespace std;
 
@@ -20,4 +21,6 @@ int main()
     }
     cout<<count<< ' '<<Min<<endl;
     return 0;
+    getch();
+
 }

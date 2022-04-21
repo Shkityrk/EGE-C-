@@ -1,9 +1,11 @@
 #include<bits/stdc++.h>
+#include<conio.h>
 
 using namespace std;
 int main(){
   clock_t start, end;
   start = clock();
+
   int x, a, b, d, w, x0;
   for (x0=1; x0<1000000000; x0++){
     x=x0;
@@ -26,5 +28,5 @@ int main(){
   end = clock();
   printf("The above code block was executed in %.4f second(s)\n", ((double) end - start) / ((double) CLOCKS_PER_SEC));
   return 0;
-
+  getch();
 }
