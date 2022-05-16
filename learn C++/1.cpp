@@ -9,4 +9,7 @@ int main() {
     cin >> a >> b;
     cout << 2*(a + b);
     getch();
+
+
+    
 }
