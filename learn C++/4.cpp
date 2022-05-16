@@ -1,12 +1,7 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<conio.h>
 using namespace std;
-
-int main()
-{
-    int a, r, add;
-    cin >> a ;
-    r= a%2;
-    add = 2-r;
-    cout << a+ add; 
-    
+int main(){
+    cout << "Привет!";
+    getch();
 }

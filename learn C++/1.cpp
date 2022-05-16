@@ -1,8 +1,12 @@
-#include<bits/stdc++.h>
+#include <iostream>
+#include <conio.h>
+
 using namespace std;
 
-int main()
-{
-
-    cout<< "Hello World";
+int main() {
+    int a, b;
+    cout << "Heloooooooooooooooo";
+    cin >> a >> b;
+    cout << 2*(a + b);
+    getch();
 }
