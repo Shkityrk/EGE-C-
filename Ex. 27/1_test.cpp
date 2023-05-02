@@ -1,0 +1,26 @@
+#include<iostream>
+#include<fstream>
+#include<vector>
+#include<ctime>
+using namespace std;
+
+int main(){
+    long long n;
+    ifstream f("27B_2724.txt");
+    f >>n;
+    cout<<n;
+
+    vector<int> a(n);
+    for (int i=0;i<n;i++) f>>a[i];
+
+    long long count=0;
+    for (int i=0;i<n;i++){
+        for (int j=i+1;j<n;j++){
+            if ((a[i]+a[j])%131==0) count++;
+        }
+        
+    }
+    cout<< count<<endl;
+    return 0;
+    
+}
